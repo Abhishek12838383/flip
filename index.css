@@ -1,0 +1,11 @@
+.front:hover{
+ animation: moveAround 1s;
+}
+@keyframes moveAround{
+    0%{transform: rotate(0deg);color: #000;}
+    20%{transform: rotate(30deg);color: #303030}
+    40%{transform: rotate(45deg);color: #404040}
+    60%{transform: rotate(60deg);color: #585858}
+    80%{transform: rotate(90deg);color: #C0C0C0}
+    100%{transform: rotate(360deg);color: #F8F8F8}
+}
